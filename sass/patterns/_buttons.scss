@@ -1,0 +1,58 @@
+.btn,
+input[type="submit"] {
+    /* common styles */
+    display: inline-block;
+    padding: .55em 1.5em .5em;
+    background-color: var(--color-primary);
+    border: 0.125rem solid var(--color-primary);
+    color: #fff;
+    border-radius: .25em;
+
+    /* link necessary styles */
+    text-decoration: none;
+
+    /* button necessary styles */
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.btn:hover,
+.btn:focus-visible {
+    background-color: #59758d;
+    border-color: #59758d;
+    color: #fff;
+}
+
+.btn--secondary {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    color: #000;
+}
+
+.btn--secondary:hover,
+.btn--secondary:focus-visible {
+    background-color: #75d3a7;
+    border-color: #75d3a7;
+    color: #000;
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.btn--outline:hover,
+.btn--outline:focus-visible {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn--small {
+    font-size: .75rem;
+}
+
+.btn--large {
+    font-size: 1.25rem;
+}
