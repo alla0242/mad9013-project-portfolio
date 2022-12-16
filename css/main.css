@@ -100,15 +100,6 @@ align-content: center;
 height: 4rem;
 }
 
-.navbar__list__item:hover, .navbar__list__item:focus {
-
-}
-.navbar__img{
-
-}
-.navbar__img:hover, .navbar__img:focus {
-
-}
 
 .form__container{
 transform: translateY(45%);
