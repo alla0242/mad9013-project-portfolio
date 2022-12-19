@@ -1,3 +1,8 @@
+/* ---------- prof comment ----------
+
+reset code is missing
+
+---------- end prof comment ---------- */
 
 :root{font-family: 'VT323',
 monospace;}
@@ -30,6 +35,11 @@ flex-wrap: wrap;
 justify-content: center;
 }
 .portfolio__items{
+  /* ---------- prof comment ----------
+  
+  avoid specific large widths. This is causing issues on small screens
+  
+  ---------- end prof comment ---------- */
 width: 20rem;
 text-align: center; 
 font-size: 1.75rem;
@@ -40,6 +50,11 @@ overflow: hidden;
 }
 
 .portfolio__items__post {
+  /* ---------- prof comment ----------
+  
+  avoid specific large widths. This is causing issues on small screens
+  
+  ---------- end prof comment ---------- */
 width: 30rem;
 text-align: center;
 font-size: 1.75rem;
@@ -231,4 +246,12 @@ transform: translateX(30vw);
 -moz-transform: translateX(30vw);
 -ms-transform: translateX(30vw);
 -o-transform: translateX(30vw);
+/* ---------- prof comment ----------
+
+this is not a good method of centering the image as
+it has responsive issues.
+use flex on the parent to center, or make the image
+display: block; then use margin: 0 auto; to center.
+
+---------- end prof comment ---------- */
 }

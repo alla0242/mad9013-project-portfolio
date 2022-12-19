@@ -11,12 +11,20 @@
     <title>Mathieu Allaire</title>
 </head>
 <body>
-
+    <!-- prof comment
+        <header> is missing
+        There should be some sort of logo/name in the navbar
+        that links to the home page
+    -->
     <nav class="navbar__container">
         <ol class="navbar__list">
             <li class="navbar__list__item">
                 <a href="index.html">
                 <img class="navbar__img" src="./img/home-svgrepo-com.svg" alt="Home Button Icon">
+                <!-- prof comment
+                    button cannot be a child of <a>
+                    It serve no function here and should be removed
+                -->
                 <button class="btn" type="button" href="index.html">./ Home</button>
                 </a></li>
             <li class="navbar__list__item">
@@ -32,6 +40,9 @@
         </ol>
     </nav>
 
+    <!-- prof comment
+      content should be grouped appropriately in <section> elements
+    -->
     <div class="banner__div">
     </div>
     <div>
@@ -39,46 +50,89 @@
     <h1>Here are some technologies I've learnt this semester</h1>
     
     <ol class="portfolio__list">
-    
+        <!-- prof comment
+          card is not a valid html element
+        -->
         <card class="portfolio__items">
+            <!-- prof comment
+              skipped heading level. This should be h2
+            -->
             <h3>HTML</h3>
+            <!-- prof comment
+                  all images must have alt text
+            -->
             <img src="img/html.png">
             <p>This semester I've learnt the fundamentals on building a website from scratch using HTML.</p>
         </card>
     
         <card class="portfolio__items">
+            <!-- prof comment
+              skipped heading level. This should be h2
+            -->
             <h3>CSS</h3>
+            <!-- prof comment
+                  all images must have alt text
+            -->
             <img src="img/css.png">
             <p>Along with learning the fundamentals of HTML, we learned how to stylize our website layouts with CSS.</p>
         </card>
     
         <card class="portfolio__items">
+            <!-- prof comment
+              skipped heading level. This should be h2
+            -->
             <h3>Javascript</h3>
+            <!-- prof comment
+                  all images must have alt text
+            -->
             <img src="img/js.png">
             <p>I've learned the fundamentals of javascript and how to use,access and populate API data on websites.</p>
         </card>
     
         <card class="portfolio__items">
+            <!-- prof comment
+              skipped heading level. This should be h2
+            -->
             <h3>Github</h3>
+            <!-- prof comment
+                  all images must have alt text
+            -->
             <img src="img/github.png">
             <p>This semester I learnt how to create repos, create and manage branches as well as commit and push changes to Github repositories.</p>
         </card>
     
         <card class="portfolio__items">
+            <!-- prof comment
+              skipped heading level. This should be h2
+            -->
             <h3>Adobe Photoshop</h3>
+            <!-- prof comment
+                  all images must have alt text
+            -->
             <img src="img/ps.png">
             <p>I learnt the necessary tools and methods to make changes to images that are used in websites.</p>
         </card>
     
         <card class="portfolio__items">
+            <!-- prof comment
+              skipped heading level. This should be h2
+            -->
             <h3>Adobe Illustrator</h3>
+            <!-- prof comment
+                  all images must have alt text
+            -->
             <img src="img/illustrator.png">
             <p>This semester I've gotten a better grasp and workflow to create and manipulate SVG files that can be used in websites.</p>
         </card>
     </ol>
     </div>
+    <!-- prof comment
+      all unique page content should be in the main
+    -->
     <main></main>
-
+    <!-- prof comment
+      footer should not be empty
+    -->
     <footer></footer>
 </body>
 </html>
